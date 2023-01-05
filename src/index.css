@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-size: 40px;
+  color: rgb(255, 194, 119);
+  margin: 0 16px;
+}
+
+h3 {
+  color: #333;
+  font-size: 16px;
+  margin: 4px;
+}
+
+p {
+  color: #666;
+  margin: 20px;
+}
+
+span {
+  color: #666;
+  font-size: 14px;
+}
