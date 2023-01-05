@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #fafcfb;
+}
+
 h1 {
   font-size: 40px;
   color: rgb(255, 194, 119);
-  margin: 0 16px;
+  margin: 32px 16px 8px 16px;
 }
 
 h3 {

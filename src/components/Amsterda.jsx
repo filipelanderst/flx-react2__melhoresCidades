@@ -99,8 +99,10 @@ function Amsterda() {
           eventualmente verá até 70.000 casas imaginadas como “uma cidade
           metropolitana”. área de uso misto”.
         </p>
-        Não é de surpreender que os pilares da indústria que já usam a área não
-        compartilhem da mesma visão.
+        <p>
+          Não é de surpreender que os pilares da indústria que já usam a área
+          não compartilhem da mesma visão.
+        </p>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from 'react';
 import imgLondres from '../img/Londres.png';
 import UK from '../flags/uk.svg';
+import Skyline from '../img/Skyline.jpg';
 
 function Londres() {
   return (
@@ -166,6 +167,10 @@ function Londres() {
           culinário cada vez mais ousado, servindo e dando as boas-vindas ao
           mundo mais uma vez.
         </p>
+
+        <div className='flex mt-6 mb-12'>
+          <img src={Skyline} alt='' />
+        </div>
       </div>
     </div>
   );
