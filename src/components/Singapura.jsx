@@ -1,10 +1,12 @@
 import React from 'react';
-import imgSingapura from '../img/Singapura.png';
+import imgSingapura from '../img/Singapura.avif';
 import SG from '../flags/sg.svg';
+import Skyline from './Skyline';
+import Line from './Line';
 
 function Singapura() {
   return (
-    <div>
+    <div id='singapura'>
       <div className='mx-auto max-w-6xl'>
         {' '}
         <a href='#singapura'>
@@ -99,6 +101,8 @@ function Singapura() {
           cidade a entrar no nosso ranking das 50 melhores conectividades em
           aeroportos.
         </p>
+        <Skyline />
+        <Line />
       </div>
     </div>
   );

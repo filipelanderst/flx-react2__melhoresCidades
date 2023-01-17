@@ -1,11 +1,12 @@
 import React from 'react';
-import imgLondres from '../img/Londres.png';
+import imgLondres from '../img/Londres.avif';
 import UK from '../flags/uk.svg';
-import Skyline from '../img/Skyline.jpg';
+import Skyline from './Skyline';
+import Line from './Line';
 
 function Londres() {
   return (
-    <div>
+    <div id='londres'>
       <div className='mx-auto max-w-6xl'>
         {' '}
         <a href='#londres'>
@@ -26,7 +27,7 @@ function Londres() {
             <span>Reino Unido</span>{' '}
           </h3>
           <h3>
-            População: <span>8.982.679 hab</span>
+            População: <span>8 982 679 hab</span>
           </h3>
           <h3>
             PIB: <span>978.402 bilhões</span>
@@ -37,7 +38,7 @@ function Londres() {
         </div>
       </div>
 
-      <img className='my-8' src={imgLondres} alt='' />
+      <img className='my-8 ' src={imgLondres} alt='' />
 
       <div className='mx-auto max-w-6xl'>
         <p>
@@ -168,9 +169,8 @@ function Londres() {
           mundo mais uma vez.
         </p>
 
-        <div className='flex mt-6 mb-12'>
-          <img src={Skyline} alt='' />
-        </div>
+        <Skyline />
+        <Line />
       </div>
     </div>
   );

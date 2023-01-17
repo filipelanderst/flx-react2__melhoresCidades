@@ -1,12 +1,14 @@
 import React from 'react';
-import imgDubai from '../img/Dubai.png';
+import imgDubai from '../img/Dubai.avif';
 import EA from '../flags/EA.svg';
+import Skyline from './Skyline';
+import Line from './Line';
 
 function Dubai() {
   return (
-    <div>
+    <div id='dubai'>
       <div className='mx-auto max-w-6xl'>
-        <a href='#londres'>
+        <a href='#dubai'>
           {' '}
           <h1>5. Dubai</h1>
         </a>
@@ -110,6 +112,9 @@ function Dubai() {
           de 795 quartos, com restaurantes dos chefs famosos Ariana Bundy e José
           Andrés.
         </p>
+
+        <Skyline />
+        <Line />
       </div>
     </div>
   );

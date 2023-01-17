@@ -1,10 +1,12 @@
 import React from 'react';
-import imgParis from '../img/Paris.png';
+import imgParis from '../img/Paris.avif';
 import FR from '../flags/fr.svg';
+import Skyline from './Skyline';
+import Line from './Line';
 
 function Paris() {
   return (
-    <div>
+    <div id='paris'>
       <div className='mx-auto max-w-6xl'>
         {' '}
         <a href='#paris'>
@@ -147,6 +149,9 @@ function Paris() {
           Sacré-Cœur e a Torre Eiffel no ar perfumado pela lavanda selvagem e
           arbustos de frutas silvestres plantados ao redor . A bientôt mes amis.
         </p>
+
+        <Skyline />
+        <Line />
       </div>
     </div>
   );

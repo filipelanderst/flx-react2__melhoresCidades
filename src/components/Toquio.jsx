@@ -1,6 +1,8 @@
 import React from 'react';
-import imgToquio from '../img/Toquio.png';
+import imgToquio from '../img/Toquio.avif';
 import JP from '../flags/jp.svg';
+import Skyline from './Skyline';
+import Line from './Line';
 
 function Toquio() {
   return (
@@ -114,6 +116,9 @@ function Toquio() {
           experimentar uma fração deles. Mas se você quiser, há muitos lugares
           para ficar.
         </p>
+
+        <Skyline />
+        <Line />
       </div>
     </div>
   );

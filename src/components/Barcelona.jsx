@@ -1,10 +1,12 @@
 import React from 'react';
-import imgBarcelona from '../img/Barcelona.png';
+import imgBarcelona from '../img/Barcelona.avif';
 import ES from '../flags/es.svg';
+import Skyline from './Skyline';
+import Line from './Line';
 
 function Barcelona() {
   return (
-    <div>
+    <div id='barcelona'>
       <div className='mx-auto max-w-6xl'>
         {' '}
         <a href='#barcelona'>
@@ -91,6 +93,9 @@ function Barcelona() {
           culminando com a reabertura do impressionante Teatre Principal do
           século XVII em 2024.
         </p>
+
+        <Skyline />
+        <Line />
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
 import React from 'react';
-import imgAmsterda from '../img/Amsterda.png';
+import imgAmsterda from '../img/Amsterda.avif';
 import ND from '../flags/nd.svg';
 
 function Amsterda() {
   return (
-    <div>
+    <div id='amsterda'>
       <div className='mx-auto max-w-6xl'>
         {' '}
         <a href='#amsterda'>

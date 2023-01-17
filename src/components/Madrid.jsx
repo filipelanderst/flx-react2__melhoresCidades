@@ -1,10 +1,12 @@
 import React from 'react';
-import imgMadrid from '../img/Madrid.png';
+import imgMadrid from '../img/Madrid.avif';
 import ES from '../flags/es.svg';
+import Skyline from './Skyline';
+import Line from './Line';
 
 function Madrid() {
   return (
-    <div>
+    <div id='madrid'>
       <div className='mx-auto max-w-6xl'>
         {' '}
         <a href='#madrid'>
@@ -135,6 +137,9 @@ function Madrid() {
           Sustentável da ONU. Isso é um bom presságio para sua pontuação
           intermediária atual (# 56) para Igualdade de Renda.
         </p>
+
+        <Skyline />
+        <Line />
       </div>
     </div>
   );

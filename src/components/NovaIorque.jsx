@@ -1,12 +1,14 @@
 import React from 'react';
-import imgNovaIorque from '../img/NovaIorque.png';
+import imgNovaIorque from '../img/NovaIorque.avif';
 import USA from '../flags/usa.svg';
+import Skyline from './Skyline';
+import Line from './Line';
 
 function NovaIorque() {
   return (
-    <div>
+    <div id='novaIorque'>
       <div className='mx-auto max-w-6xl'>
-        <a href='#NovaIorque'>
+        <a href='#novaIorque'>
           {' '}
           <h1>3. Nova Iorque</h1>
         </a>
@@ -155,6 +157,9 @@ function NovaIorque() {
           e seus elevadores externos totalmente de vidro, chamados Ascent. Suba,
           olhe para baixo e expire.
         </p>
+
+        <Skyline />
+        <Line />
       </div>
     </div>
   );

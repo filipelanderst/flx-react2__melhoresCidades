@@ -1,13 +1,15 @@
 import React from 'react';
-import imgRoma from '../img/Roma.png';
+import imgRoma from '../img/Roma.avif';
 import IT from '../flags/it.svg';
+import Skyline from './Skyline';
+import Line from './Line';
 
 function Roma() {
   return (
-    <div>
+    <div id='roma'>
       <div className='mx-auto max-w-6xl'>
         {' '}
-        <a href='#londres'>
+        <a href='#roma'>
           {' '}
           <h1>7. Roma</h1>
         </a>
@@ -106,6 +108,9 @@ function Roma() {
           ruínas de uma… vamos chamá-la de “propriedade de férias”… para os
           imperadores romanos.
         </p>
+
+        <Skyline />
+        <Line />
       </div>
     </div>
   );
