@@ -10,49 +10,55 @@ function Menu() {
       <nav>
         <ul>
           <li>
-            <button type='submit' onClick={refreshPage}>
-              <a href='#londres'>1. Londres</a>
-            </button>
+            <a href='#londres' onClick={refreshPage}>
+              1. Londres
+            </a>
           </li>
           <li>
-            <button type='submit' onClick={refreshPage}>
-              <a href='#paris'>2. Paris</a>
-            </button>
+            <a href='#paris' onClick={refreshPage}>
+              2. Paris
+            </a>
+          </li>
+
+          <li>
+            <a href='#novaIorque' onClick={refreshPage}>
+              3. Nova Iorque
+            </a>
           </li>
           <li>
-            <button type='submit' onClick={refreshPage}>
-              <a href='#novaIorque'>3. Nova Iorque</a>
-            </button>
+            <a href='#toquio' onClick={refreshPage}>
+              4. Tóquio
+            </a>
           </li>
           <li>
-            <button type='submit' onClick={refreshPage}>
-              <a href='#toquio'>4. Tóquio</a>
-            </button>
+            <a href='#dubai' onClick={refreshPage}>
+              5. Dubai
+            </a>
           </li>
           <li>
-            <button type='submit' onClick={refreshPage}>
-              <a href='#dubai'>5. Dubai</a>
-            </button>
+            <a href='#barcelona' onClick={refreshPage}>
+              6. Barcelona
+            </a>
           </li>
           <li>
-            <button type='submit' onClick={refreshPage}>
-              <a href='#roma'>7. Roma</a>
-            </button>
+            <a href='#roma' onClick={refreshPage}>
+              7. Roma
+            </a>
           </li>
           <li>
-            <button type='submit' onClick={refreshPage}>
-              <a href='#madrid'>8. Madrid</a>
-            </button>
+            <a href='#madrid' onClick={refreshPage}>
+              8. Madrid
+            </a>
           </li>
           <li>
-            <button type='submit' onClick={refreshPage}>
-              <a href='#singapura'>9. Singapura</a>
-            </button>
+            <a href='#singapura' onClick={refreshPage}>
+              9. Singapura
+            </a>
           </li>
           <li>
-            <button type='submit' onClick={refreshPage}>
-              <a href='#amsterda'>10. Amsterdã</a>
-            </button>
+            <a href='#amsterda' onClick={refreshPage}>
+              10. Amsterdã
+            </a>
           </li>
         </ul>
       </nav>
