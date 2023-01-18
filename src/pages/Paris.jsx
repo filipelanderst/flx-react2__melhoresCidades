@@ -3,10 +3,12 @@ import imgParis from '../img/Paris.avif';
 import FR from '../flags/fr.svg';
 import Skyline from '../components/Skyline';
 import Line from '../components/Line';
+import Header from '../components/Header';
 
 function Paris() {
   return (
     <div id='paris'>
+      <Header />
       <div className='mx-auto max-w-6xl'>
         {' '}
         <a href='#paris'>
