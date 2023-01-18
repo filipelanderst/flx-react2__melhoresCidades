@@ -1,7 +1,5 @@
 import React from 'react';
 
-const url = window.location.href;
-
 function Menu() {
   function refreshPage() {
     window.location.reload(false);
@@ -12,53 +10,53 @@ function Menu() {
       <nav>
         <ul>
           <li>
-            <a href={url + '#londres'} onClick={refreshPage}>
+            <a href='#londres' onClick={refreshPage}>
               1. Londres
             </a>
           </li>
           <li>
-            <a href={url + '#paris'} onClick={refreshPage}>
+            <a href='#paris' onClick={refreshPage}>
               2. Paris
             </a>
           </li>
 
           <li>
-            <a href={url + '#novaIorque'} onClick={refreshPage}>
+            <a href='#novaIorque' onClick={refreshPage}>
               3. Nova Iorque
             </a>
           </li>
           <li>
-            <a href={url + '#toquio'} onClick={refreshPage}>
+            <a href='#toquio' onClick={refreshPage}>
               4. Tóquio
             </a>
           </li>
           <li>
-            <a href={url + '#dubai'} onClick={refreshPage}>
+            <a href='#dubai' onClick={refreshPage}>
               5. Dubai
             </a>
           </li>
           <li>
-            <a href={url + '#barcelona'} onClick={refreshPage}>
+            <a href='#barcelona' onClick={refreshPage}>
               6. Barcelona
             </a>
           </li>
           <li>
-            <a href={url + '#roma'} onClick={refreshPage}>
+            <a href='#roma' onClick={refreshPage}>
               7. Roma
             </a>
           </li>
           <li>
-            <a href={url + '#madrid'} onClick={refreshPage}>
+            <a href='#madrid' onClick={refreshPage}>
               8. Madrid
             </a>
           </li>
           <li>
-            <a href={url + '#singapura'} onClick={refreshPage}>
+            <a href='#singapura' onClick={refreshPage}>
               9. Singapura
             </a>
           </li>
           <li>
-            <a href={url + '#amsterda'} onClick={refreshPage}>
+            <a href='#amsterda' onClick={refreshPage}>
               10. Amsterdã
             </a>
           </li>
