@@ -1,8 +1,8 @@
 import React from 'react';
 import imgNovaIorque from '../img/NovaIorque.avif';
 import USA from '../flags/usa.svg';
-import Skyline from './Skyline';
-import Line from './Line';
+import Skyline from '../components/Skyline';
+import Line from '../components/Line';
 
 function NovaIorque() {
   return (
@@ -10,7 +10,7 @@ function NovaIorque() {
       <div className='mx-auto max-w-6xl'>
         <a href='#novaIorque'>
           {' '}
-          <h1>3. Nova Iorque</h1>
+          <h1 className='pt-20'>3. Nova Iorque</h1>
         </a>
 
         <p className=' border-l-4 pl-4 '>

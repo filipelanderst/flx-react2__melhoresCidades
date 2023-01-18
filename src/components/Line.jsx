@@ -3,7 +3,7 @@ import React from 'react';
 function Line() {
   return (
     <div>
-      <div className='hidden sm:block text-center font-bold my-8 text-gray-300'>
+      <div className='hidden sm:block text-center font-bold mt-12 -mb-12 text-gray-300'>
         ———
       </div>
     </div>

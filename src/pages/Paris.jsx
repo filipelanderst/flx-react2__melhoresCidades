@@ -1,8 +1,8 @@
 import React from 'react';
 import imgParis from '../img/Paris.avif';
 import FR from '../flags/fr.svg';
-import Skyline from './Skyline';
-import Line from './Line';
+import Skyline from '../components/Skyline';
+import Line from '../components/Line';
 
 function Paris() {
   return (
@@ -11,7 +11,7 @@ function Paris() {
         {' '}
         <a href='#paris'>
           {' '}
-          <h1>2. Paris</h1>
+          <h1 className='pt-20'>2. Paris</h1>
         </a>
         <p className=' border-l-4 pl-4 '>
           Paris atacou a pandemia não apenas com seus médicos e profissionais de

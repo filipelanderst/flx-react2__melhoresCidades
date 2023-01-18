@@ -1,8 +1,8 @@
 import React from 'react';
 import imgBarcelona from '../img/Barcelona.avif';
 import ES from '../flags/es.svg';
-import Skyline from './Skyline';
-import Line from './Line';
+import Skyline from '../components/Skyline';
+import Line from '../components/Line';
 
 function Barcelona() {
   return (
@@ -11,7 +11,7 @@ function Barcelona() {
         {' '}
         <a href='#barcelona'>
           {' '}
-          <h1>6. Barcelona</h1>
+          <h1 className='pt-20'>6. Barcelona</h1>
         </a>
         <p className=' border-l-4 pl-4 '>
           A desafiadora capital catalã era o garoto-propaganda do overtourism

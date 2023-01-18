@@ -1,8 +1,8 @@
 import React from 'react';
 import imgMadrid from '../img/Madrid.avif';
 import ES from '../flags/es.svg';
-import Skyline from './Skyline';
-import Line from './Line';
+import Skyline from '../components/Skyline';
+import Line from '../components/Line';
 
 function Madrid() {
   return (
@@ -11,7 +11,7 @@ function Madrid() {
         {' '}
         <a href='#madrid'>
           {' '}
-          <h1>8. Madrid</h1>
+          <h1 className='pt-20'>8. Madrid</h1>
         </a>
         <p className=' border-l-4 pl-4 '>
           A capital cinética da Espanha - atingida pela pandemia - está de volta

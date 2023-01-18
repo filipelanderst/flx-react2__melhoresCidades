@@ -1,13 +1,13 @@
 import React from 'react';
 import imgLondres from '../img/Londres.avif';
 import UK from '../flags/uk.svg';
-import Skyline from './Skyline';
-import Line from './Line';
+import Skyline from '../components/Skyline';
+import Line from '../components/Line';
 
 function Londres() {
   return (
     <div id='londres'>
-      <div className='mx-auto max-w-6xl'>
+      <div className='mx-auto max-w-6xl pt-12'>
         {' '}
         <a href='#londres'>
           {' '}

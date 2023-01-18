@@ -1,8 +1,8 @@
 import React from 'react';
 import imgDubai from '../img/Dubai.avif';
 import EA from '../flags/EA.svg';
-import Skyline from './Skyline';
-import Line from './Line';
+import Skyline from '../components/Skyline';
+import Line from '../components/Line';
 
 function Dubai() {
   return (
@@ -10,7 +10,7 @@ function Dubai() {
       <div className='mx-auto max-w-6xl'>
         <a href='#dubai'>
           {' '}
-          <h1>5. Dubai</h1>
+          <h1 className='pt-20'>5. Dubai</h1>
         </a>
 
         <p className=' border-l-4 pl-4 '>

@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Menu() {
+  const url = 'http://localhost:5173/';
   return (
     <div>
       <nav>

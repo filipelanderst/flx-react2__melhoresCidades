@@ -9,7 +9,7 @@ function Amsterda() {
         {' '}
         <a href='#amsterda'>
           {' '}
-          <h1>10. Amsterdã</h1>
+          <h1 className='pt-20'>10. Amsterdã</h1>
         </a>
         <p className=' border-l-4 pl-4 '>
           Surpreso ao ver uma capital europeia de médio porte com um

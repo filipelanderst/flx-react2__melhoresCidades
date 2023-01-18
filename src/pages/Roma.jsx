@@ -1,8 +1,8 @@
 import React from 'react';
 import imgRoma from '../img/Roma.avif';
 import IT from '../flags/it.svg';
-import Skyline from './Skyline';
-import Line from './Line';
+import Skyline from '../components/Skyline';
+import Line from '../components/Line';
 
 function Roma() {
   return (
@@ -11,7 +11,7 @@ function Roma() {
         {' '}
         <a href='#roma'>
           {' '}
-          <h1>7. Roma</h1>
+          <h1 className='pt-20'>7. Roma</h1>
         </a>
         <p className=' border-l-4 pl-4 '>
           A Cidade Eterna sempre foi cobiçada. Hoje em dia, a recompensa é um
@@ -108,7 +108,6 @@ function Roma() {
           ruínas de uma… vamos chamá-la de “propriedade de férias”… para os
           imperadores romanos.
         </p>
-
         <Skyline />
         <Line />
       </div>

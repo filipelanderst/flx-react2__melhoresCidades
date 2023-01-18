@@ -1,16 +1,16 @@
 import React from 'react';
 import imgToquio from '../img/Toquio.avif';
 import JP from '../flags/jp.svg';
-import Skyline from './Skyline';
-import Line from './Line';
+import Skyline from '../components/Skyline';
+import Line from '../components/Line';
 
 function Toquio() {
   return (
-    <div>
+    <div id='toquio'>
       <div className='mx-auto max-w-6xl'>
         <a href='#toquio'>
           {' '}
-          <h1>4. Tóquio</h1>
+          <h1 className='pt-20'>4. Tóquio</h1>
         </a>
 
         <p className=' border-l-4 pl-4 '>

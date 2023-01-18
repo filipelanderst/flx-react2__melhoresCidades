@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Londres from './Londres';
-import Paris from './Paris';
-import NovaYork from './NovaIorque';
-import Toquio from './Toquio';
-import Dubai from './Dubai';
-import Barcelona from './Barcelona';
-import Roma from './Roma';
-import Madrid from './Madrid';
-import Singapura from './Singapura';
-import Amsterda from './Amsterda';
+import Londres from '../pages/Londres';
+import Paris from '../pages/Paris';
+import NovaYork from '../pages/NovaIorque';
+import Toquio from '../pages/Toquio';
+import Dubai from '../pages/Dubai';
+import Barcelona from '../pages/Barcelona';
+import Roma from '../pages/Roma';
+import Madrid from '../pages/Madrid';
+import Singapura from '../pages/Singapura';
+import Amsterda from '../pages/Amsterda';
 
 function Article() {
   return (

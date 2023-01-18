@@ -11,15 +11,16 @@ function Header() {
   }
 
   return (
-    <div>
-      <div className='flex justify-between items-center mx-auto max-w-6xl p-6'>
-        <a href='/'>
-          <img
-            className='w-24'
-            src='https://www.svgrepo.com/show/393924/skyline-line-park.svg'
-            alt=''
-          />
-        </a>
+    <div className='fixed w-full main-bg'>
+      <div className='flex justify-between mx-6 items-center'>
+        <div>
+          <a href='/'>
+            <img
+              className='w-20 p-2'
+              src='https://www.svgrepo.com/show/393923/skyline-line-buildings.svg'
+            />
+          </a>
+        </div>
 
         <div className='hamburger'>
           <Hamburger onToggle={handleMenu} />

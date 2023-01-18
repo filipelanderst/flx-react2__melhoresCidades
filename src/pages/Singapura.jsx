@@ -1,8 +1,8 @@
 import React from 'react';
 import imgSingapura from '../img/Singapura.avif';
 import SG from '../flags/sg.svg';
-import Skyline from './Skyline';
-import Line from './Line';
+import Line from '../components/Line';
+import Skyline from '../components/Skyline';
 
 function Singapura() {
   return (
@@ -11,7 +11,7 @@ function Singapura() {
         {' '}
         <a href='#singapura'>
           {' '}
-          <h1>9. Singapura</h1>
+          <h1 className='pt-20'>9. Singapura</h1>
         </a>
         <p className=' border-l-4 pl-4 '>
           A potência financeira da Ásia transforma suas ambições em
