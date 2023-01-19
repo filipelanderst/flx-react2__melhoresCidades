@@ -6,18 +6,13 @@ function Menu() {
   const [open, setOpen] = useState(false);
 
   function handleMenu() {
-    setOpen(open(false));
+    setOpen(useState(true));
   }
 
   return (
     <div>
-      <nav>
-        <h2
-          className='text-cyan-400 text-3xl pl-2 mt-6 mb-4'
-          onClick={handleMenu}
-        >
-          Cidades
-        </h2>
+      <nav className={open ? 'xxx' : 'yyy'}>
+        <h2 className='text-cyan-400 text-3xl pl-2 mt-6 mb-4'>Cidades</h2>
         <ul>
           <li>
             <Link to='/londres' onClick={handleMenu}>
