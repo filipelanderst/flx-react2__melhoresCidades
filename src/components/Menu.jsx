@@ -3,69 +3,61 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 function Menu() {
-  const [open, setOpen] = useState(false);
-
-  function handleMenu() {
-    setOpen(useState(true));
-  }
+  const navigation = [
+    { link: '/londres', text: 'Londres' },
+    { link: '/paris', text: 'Paris' },
+    { link: '/novaIorque', text: 'Nova Iorque' },
+  ];
 
   return (
     <div>
-      <nav className={open ? 'xxx' : 'yyy'}>
+      <nav>
+        <button className='menu-toggle'>
+          <span className='menu hamburger'></span>
+        </button>
+        <ul className='menu-links'>
+          {navigation.map((nav) => (
+            <li key={nav.text}>
+              <a href={nav.link}>{nav.text}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+      {/* <nav>
         <h2 className='text-cyan-400 text-3xl pl-2 mt-6 mb-4'>Cidades</h2>
         <ul>
           <li>
-            <Link to='/londres' onClick={handleMenu}>
-              1. Londres
-            </Link>
+            <Link to='/londres'>1. Londres</Link>
           </li>
           <li>
-            <Link to='/paris' onClick={handleMenu}>
-              2. Paris
-            </Link>
+            <Link to='/paris'>2. Paris</Link>
           </li>
           <li>
-            <Link to='/novaIorque' onClick={handleMenu}>
-              3. Nova Iorque
-            </Link>
+            <Link to='/novaIorque'>3. Nova Iorque</Link>
           </li>
           <li>
-            <Link to='/toquio' onClick={handleMenu}>
-              4. Tóquio
-            </Link>
+            <Link to='/toquio'>4. Tóquio</Link>
           </li>
           <li>
-            <Link to='/dubai' onClick={handleMenu}>
-              5. Dubai
-            </Link>
+            <Link to='/dubai'>5. Dubai</Link>
           </li>
           <li>
-            <Link to='/barcelona' onClick={handleMenu}>
-              6. Barcelona
-            </Link>
+            <Link to='/barcelona'>6. Barcelona</Link>
           </li>
           <li>
-            <Link to='/roma' onClick={handleMenu}>
-              7. Roma
-            </Link>
+            <Link to='/roma'>7. Roma</Link>
           </li>
           <li>
-            <Link to='/madrid' onClick={handleMenu}>
-              8. Madrid
-            </Link>
+            <Link to='/madrid'>8. Madrid</Link>
           </li>
           <li>
-            <Link to='/singapura' onClick={handleMenu}>
-              9. Singapura
-            </Link>
+            <Link to='/singapura'>9. Singapura</Link>
           </li>
           <li>
-            <Link to='/amsterda' onClick={handleMenu}>
-              10. Amsterdã
-            </Link>
+            <Link to='/amsterda'>10. Amsterdã</Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </div>
   );
 }
