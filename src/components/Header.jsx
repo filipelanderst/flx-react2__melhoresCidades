@@ -8,13 +8,14 @@ function Header() {
 
   function handleMenu() {
     setOpen(!open);
+    window.scrollTo(0, 0);
   }
 
   return (
     <div className='fixed w-full bg-white'>
       <div className='flex justify-between mx-6 items-center'>
         <div>
-          <Link to='/'>
+          <Link to='/' onClick={!handleMenu}>
             <img
               className='w-14 p-1'
               src='https://www.worldsbestcities.com/wp-content/themes/bestcities/favicons/apple-touch-icon.png'
@@ -23,7 +24,7 @@ function Header() {
         </div>
 
         <div className='hamburger'>
-          <Hamburger onToggle={handleMenu} />
+          <Hamburger toggled={open} toggle={setOpen} />
         </div>
       </div>
 
