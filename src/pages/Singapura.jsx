@@ -1,18 +1,17 @@
 import React from 'react';
 import imgSingapura from '../img/Singapura.avif';
 import SG from '../flags/sg.svg';
-import Line from '../components/Line';
-import Skyline from '../components/Skyline';
+import { Link } from 'react-router-dom';
 
 function Singapura() {
   return (
-    <div id='singapura'>
+    <div className='pt-12'>
       <div className='mx-auto max-w-6xl'>
         {' '}
-        <a href='#singapura'>
+        <Link to='/singapura'>
           {' '}
-          <h1 className='pt-20'>9. Singapura</h1>
-        </a>
+          <h1>9. Singapura</h1>
+        </Link>
         <p className=' border-l-4 pl-4 '>
           A potência financeira da Ásia transforma suas ambições em
           infraestrutura elevada e inovação local.
@@ -101,8 +100,6 @@ function Singapura() {
           cidade a entrar no nosso ranking das 50 melhores conectividades em
           aeroportos.
         </p>
-        <Skyline />
-        <Line />
       </div>
     </div>
   );

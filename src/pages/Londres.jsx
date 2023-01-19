@@ -1,18 +1,17 @@
 import React from 'react';
 import imgLondres from '../img/Londres.avif';
 import UK from '../flags/uk.svg';
-import Skyline from '../components/Skyline';
-import Line from '../components/Line';
+import { Link } from 'react-router-dom';
 
 function Londres() {
   return (
-    <div id='londres'>
-      <div className='mx-auto max-w-6xl pt-12'>
+    <div className='pt-12'>
+      <div className='mx-auto max-w-6xl'>
         {' '}
-        <a href='#londres'>
+        <Link to='/londres'>
           {' '}
           <h1>1. Londres</h1>
-        </a>
+        </Link>
         <p className=' border-l-4 pl-4 '>
           Enquanto a “capital das capitais” negocia o terreno inexplorado e
           perigoso de um mundo pós-Brexit e pandêmico, Londres continua a reinar
@@ -168,9 +167,6 @@ function Londres() {
           culinário cada vez mais ousado, servindo e dando as boas-vindas ao
           mundo mais uma vez.
         </p>
-
-        <Skyline />
-        <Line />
       </div>
     </div>
   );

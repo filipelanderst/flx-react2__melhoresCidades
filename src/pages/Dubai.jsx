@@ -1,17 +1,16 @@
 import React from 'react';
 import imgDubai from '../img/Dubai.avif';
 import EA from '../flags/EA.svg';
-import Skyline from '../components/Skyline';
-import Line from '../components/Line';
+import { Link } from 'react-router-dom';
 
 function Dubai() {
   return (
-    <div id='dubai'>
+    <div className='pt-12'>
       <div className='mx-auto max-w-6xl'>
-        <a href='#dubai'>
+        <Link to='/dubai'>
           {' '}
-          <h1 className='pt-20'>5. Dubai</h1>
-        </a>
+          <h1>5. Dubai</h1>
+        </Link>
 
         <p className=' border-l-4 pl-4 '>
           Uma mistura atraente de experiências exageradas, herança árabe e
@@ -112,9 +111,6 @@ function Dubai() {
           de 795 quartos, com restaurantes dos chefs famosos Ariana Bundy e José
           Andrés.
         </p>
-
-        <Skyline />
-        <Line />
       </div>
     </div>
   );

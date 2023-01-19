@@ -1,18 +1,17 @@
 import React from 'react';
 import imgRoma from '../img/Roma.avif';
 import IT from '../flags/it.svg';
-import Skyline from '../components/Skyline';
-import Line from '../components/Line';
+import { Link } from 'react-router-dom';
 
 function Roma() {
   return (
-    <div id='roma'>
+    <div className='pt-12'>
       <div className='mx-auto max-w-6xl'>
         {' '}
-        <a href='#roma'>
+        <Link to='/roma'>
           {' '}
-          <h1 className='pt-20'>7. Roma</h1>
-        </a>
+          <h1>7. Roma</h1>
+        </Link>
         <p className=' border-l-4 pl-4 '>
           A Cidade Eterna sempre foi cobiçada. Hoje em dia, a recompensa é um
           retrocesso imersivo no tempo.
@@ -108,8 +107,6 @@ function Roma() {
           ruínas de uma… vamos chamá-la de “propriedade de férias”… para os
           imperadores romanos.
         </p>
-        <Skyline />
-        <Line />
       </div>
     </div>
   );

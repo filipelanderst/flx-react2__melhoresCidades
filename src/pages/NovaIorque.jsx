@@ -1,17 +1,16 @@
 import React from 'react';
 import imgNovaIorque from '../img/NovaIorque.avif';
 import USA from '../flags/usa.svg';
-import Skyline from '../components/Skyline';
-import Line from '../components/Line';
+import { Link } from 'react-router-dom';
 
 function NovaIorque() {
   return (
-    <div id='novaIorque'>
+    <div className='pt-12'>
       <div className='mx-auto max-w-6xl'>
-        <a href='#novaIorque'>
+        <Link to='/novaIorque'>
           {' '}
-          <h1 className='pt-20'>3. Nova Iorque</h1>
-        </a>
+          <h1>3. Nova Iorque</h1>
+        </Link>
 
         <p className=' border-l-4 pl-4 '>
           Depois de dois anos infernais, poucos lugares no planeta estavam tão
@@ -157,9 +156,6 @@ function NovaIorque() {
           e seus elevadores externos totalmente de vidro, chamados Ascent. Suba,
           olhe para baixo e expire.
         </p>
-
-        <Skyline />
-        <Line />
       </div>
     </div>
   );

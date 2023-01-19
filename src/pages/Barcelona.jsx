@@ -1,18 +1,17 @@
 import React from 'react';
 import imgBarcelona from '../img/Barcelona.avif';
 import ES from '../flags/es.svg';
-import Skyline from '../components/Skyline';
-import Line from '../components/Line';
+import { Link } from 'react-router-dom';
 
 function Barcelona() {
   return (
-    <div id='barcelona'>
+    <div className='pt-12'>
       <div className='mx-auto max-w-6xl'>
         {' '}
-        <a href='#barcelona'>
+        <Link to='/barcelona'>
           {' '}
-          <h1 className='pt-20'>6. Barcelona</h1>
-        </a>
+          <h1>6. Barcelona</h1>
+        </Link>
         <p className=' border-l-4 pl-4 '>
           A desafiadora capital catalã era o garoto-propaganda do overtourism
           global – e suas soluções. Ou seja, antes da pandemia.
@@ -35,9 +34,7 @@ function Barcelona() {
           </h3>
         </div>
       </div>
-
       <img className='my-8' src={imgBarcelona} alt='' />
-
       <div className='mx-auto max-w-6xl'>
         <p>
           Barcelona é uma cidade europeia quase ideal, com clima quase perfeito
@@ -93,9 +90,6 @@ function Barcelona() {
           culminando com a reabertura do impressionante Teatre Principal do
           século XVII em 2024.
         </p>
-
-        <Skyline />
-        <Line />
       </div>
     </div>
   );

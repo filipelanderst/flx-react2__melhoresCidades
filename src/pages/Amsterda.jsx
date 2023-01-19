@@ -1,16 +1,17 @@
 import React from 'react';
 import imgAmsterda from '../img/Amsterda.avif';
 import ND from '../flags/nd.svg';
+import { Link } from 'react-router-dom';
 
 function Amsterda() {
   return (
-    <div id='amsterda'>
+    <div className='pt-12'>
       <div className='mx-auto max-w-6xl'>
         {' '}
-        <a href='#amsterda'>
+        <Link to='/amsterda'>
           {' '}
-          <h1 className='pt-20'>10. Amsterdã</h1>
-        </a>
+          <h1>10. Amsterdã</h1>
+        </Link>
         <p className=' border-l-4 pl-4 '>
           Surpreso ao ver uma capital europeia de médio porte com um
           representante partidário decadente classificado tão alto? Você

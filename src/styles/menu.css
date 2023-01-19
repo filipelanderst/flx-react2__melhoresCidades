@@ -1,7 +1,3 @@
-:root {
-  --cream: rgb(255, 194, 119);
-}
-
 .menu {
   translate: -500px;
   position: fixed;
@@ -23,6 +19,6 @@
 }
 
 .hamburger {
-  color: var(--cream);
+  color: #22d3ee;
   z-index: 10;
 }

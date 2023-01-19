@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Hamburger from 'hamburger-react';
 import '../styles/menu.css';
 import Menu from './Menu';
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -11,15 +12,15 @@ function Header() {
   }
 
   return (
-    <div className='fixed w-full main-bg'>
+    <div className='fixed w-full bg-white'>
       <div className='flex justify-between mx-6 items-center'>
         <div>
-          <a href='/'>
+          <Link to='/'>
             <img
               className='w-20 p-2'
-              src='https://www.svgrepo.com/show/393923/skyline-line-buildings.svg'
+              src='https://www.worldsbestcities.com/wp-content/themes/bestcities/favicons/apple-touch-icon.png'
             />
-          </a>
+          </Link>
         </div>
 
         <div className='hamburger'>

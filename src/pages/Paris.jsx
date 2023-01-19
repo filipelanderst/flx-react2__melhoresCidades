@@ -1,20 +1,17 @@
 import React from 'react';
 import imgParis from '../img/Paris.avif';
 import FR from '../flags/fr.svg';
-import Skyline from '../components/Skyline';
-import Line from '../components/Line';
-import Header from '../components/Header';
+import { Link } from 'react-router-dom';
 
 function Paris() {
   return (
-    <div id='paris'>
-      <Header />
+    <div className='pt-12'>
       <div className='mx-auto max-w-6xl'>
         {' '}
-        <a href='#paris'>
+        <Link to='/paris'>
           {' '}
-          <h1 className='pt-20'>2. Paris</h1>
-        </a>
+          <h1>2. Paris</h1>
+        </Link>
         <p className=' border-l-4 pl-4 '>
           Paris atacou a pandemia não apenas com seus médicos e profissionais de
           saúde, mas também com seus planejadores urbanos.
@@ -151,9 +148,6 @@ function Paris() {
           Sacré-Cœur e a Torre Eiffel no ar perfumado pela lavanda selvagem e
           arbustos de frutas silvestres plantados ao redor . A bientôt mes amis.
         </p>
-
-        <Skyline />
-        <Line />
       </div>
     </div>
   );

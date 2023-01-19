@@ -1,64 +1,40 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Menu() {
-  function refreshPage() {
-    window.location.reload(false);
-  }
-
   return (
     <div>
       <nav>
         <ul>
           <li>
-            <a href='#londres' onClick={refreshPage}>
-              1. Londres
-            </a>
+            <Link to='/londres'>1. Londres</Link>
           </li>
           <li>
-            <a href='#paris' onClick={refreshPage}>
-              2. Paris
-            </a>
-          </li>
-
-          <li>
-            <a href='#novaIorque' onClick={refreshPage}>
-              3. Nova Iorque
-            </a>
+            <Link to='/paris'>2. Paris</Link>
           </li>
           <li>
-            <a href='#toquio' onClick={refreshPage}>
-              4. Tóquio
-            </a>
+            <Link to='/novaIorque'>3. Nova Iorque</Link>
           </li>
           <li>
-            <a href='#dubai' onClick={refreshPage}>
-              5. Dubai
-            </a>
+            <Link to='/toquio'>4. Tóquio</Link>
           </li>
           <li>
-            <a href='#barcelona' onClick={refreshPage}>
-              6. Barcelona
-            </a>
+            <Link to='/dubai'>5. Dubai</Link>
           </li>
           <li>
-            <a href='#roma' onClick={refreshPage}>
-              7. Roma
-            </a>
+            <Link to='/barcelona'>6. Barcelona</Link>
           </li>
           <li>
-            <a href='#madrid' onClick={refreshPage}>
-              8. Madrid
-            </a>
+            <Link to='/roma'>7. Roma</Link>
           </li>
           <li>
-            <a href='#singapura' onClick={refreshPage}>
-              9. Singapura
-            </a>
+            <Link to='/madrid'>8. Madrid</Link>
           </li>
           <li>
-            <a href='#amsterda' onClick={refreshPage}>
-              10. Amsterdã
-            </a>
+            <Link to='/singapura'>9. Singapura</Link>
+          </li>
+          <li>
+            <Link to='/amsterda'>10. Amsterdã</Link>
           </li>
         </ul>
       </nav>

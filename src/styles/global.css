@@ -2,17 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #fafcfb;
-}
-
-.main-bg {
-  background-color: #fafcfb;
-}
-
 h1 {
   font-size: 40px;
-  color: rgb(255, 194, 119);
+  color: #22d3ee;
   margin: 32px 16px 8px 16px;
 }
 

@@ -1,18 +1,17 @@
 import React from 'react';
 import imgMadrid from '../img/Madrid.avif';
 import ES from '../flags/es.svg';
-import Skyline from '../components/Skyline';
-import Line from '../components/Line';
+import { Link } from 'react-router-dom';
 
 function Madrid() {
   return (
-    <div id='madrid'>
+    <div className='pt-12'>
       <div className='mx-auto max-w-6xl'>
         {' '}
-        <a href='#madrid'>
+        <Link to='/madrid'>
           {' '}
-          <h1 className='pt-20'>8. Madrid</h1>
-        </a>
+          <h1>8. Madrid</h1>
+        </Link>
         <p className=' border-l-4 pl-4 '>
           A capital cinética da Espanha - atingida pela pandemia - está de volta
           como nunca antes, graças a um renascimento impulsionado pelo povo.
@@ -137,9 +136,6 @@ function Madrid() {
           Sustentável da ONU. Isso é um bom presságio para sua pontuação
           intermediária atual (# 56) para Igualdade de Renda.
         </p>
-
-        <Skyline />
-        <Line />
       </div>
     </div>
   );

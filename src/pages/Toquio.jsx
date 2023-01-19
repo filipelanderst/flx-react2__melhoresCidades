@@ -1,17 +1,16 @@
 import React from 'react';
 import imgToquio from '../img/Toquio.avif';
 import JP from '../flags/jp.svg';
-import Skyline from '../components/Skyline';
-import Line from '../components/Line';
+import { Link } from 'react-router-dom';
 
 function Toquio() {
   return (
-    <div id='toquio'>
+    <div className='pt-12'>
       <div className='mx-auto max-w-6xl'>
-        <a href='#toquio'>
+        <Link to='/toquio'>
           {' '}
-          <h1 className='pt-20'>4. Tóquio</h1>
-        </a>
+          <h1>4. Tóquio</h1>
+        </Link>
 
         <p className=' border-l-4 pl-4 '>
           A metrópole futurista está explorando suas antigas raízes feudais,
@@ -116,9 +115,6 @@ function Toquio() {
           experimentar uma fração deles. Mas se você quiser, há muitos lugares
           para ficar.
         </p>
-
-        <Skyline />
-        <Line />
       </div>
     </div>
   );
