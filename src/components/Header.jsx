@@ -17,7 +17,7 @@ function Header() {
         <div>
           <Link to='/' onClick={!handleMenu}>
             <img
-              className='w-14 p-1'
+              className='w-14 p-1 '
               src='https://www.worldsbestcities.com/wp-content/themes/bestcities/favicons/apple-touch-icon.png'
             />
           </Link>

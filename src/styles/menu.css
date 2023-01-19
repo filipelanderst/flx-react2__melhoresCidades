@@ -1,21 +1,24 @@
 .menu {
-  translate: -500px;
+  right: -2000px;
   position: fixed;
 
   animation-name: slide;
-  animation-duration: 500ms;
+  animation-duration: 750ms;
+  background-color: white;
 }
 .menu-active {
+  opacity: 1;
+
   position: fixed;
   background-color: white;
   color: #666;
   width: 100vw;
   height: 100vh;
   padding-left: 24px;
-  transition: 250ms;
+  transition: 1.25s;
 
   animation-name: slide;
-  animation-duration: 500ms;
+  animation-duration: 750ms;
 }
 
 .menu-active ul li {
@@ -23,7 +26,7 @@
   font-size: 1.25rem;
 
   animation-name: slide;
-  animation-duration: 500ms;
+  animation-duration: 750ms;
 }
 
 .hamburger {
@@ -31,12 +34,12 @@
   z-index: 10;
 
   animation-name: slide;
-  animation-duration: 500ms;
+  animation-duration: 750ms;
 }
 
 @keyframes slide {
   from {
-    opacity: 0;
+    opacity: 0.25;
   }
   to {
     opacity: 1;

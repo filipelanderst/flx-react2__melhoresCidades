@@ -7,7 +7,7 @@ h1 {
   color: #22d3ee;
   margin: 32px 16px 8px 16px;
   animation-name: slide;
-  animation-duration: 1.5s;
+  animation-duration: 500ms;
 }
 
 h3 {
@@ -15,21 +15,21 @@ h3 {
   font-size: 16px;
   margin: 4px;
   animation-name: slide;
-  animation-duration: 1.5s;
+  animation-duration: 500ms;
 }
 
 p {
   color: #666;
   margin: 20px;
   animation-name: slide;
-  animation-duration: 1.5s;
+  animation-duration: 500ms;
 }
 
 span {
   color: #666;
   font-size: 14px;
   animation-name: slide;
-  animation-duration: 1.5s;
+  animation-duration: 500ms;
 }
 
 img {
@@ -39,7 +39,7 @@ img {
 
 @keyframes slide {
   from {
-    opacity: 0;
+    opacity: 0.25;
   }
   to {
     opacity: 1;
