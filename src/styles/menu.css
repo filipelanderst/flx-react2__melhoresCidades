@@ -3,7 +3,7 @@
   position: fixed;
 
   animation-name: slide;
-  animation-duration: 600ms;
+  animation-duration: 500ms;
 }
 .menu-active {
   position: fixed;
@@ -12,10 +12,10 @@
   width: 100vw;
   height: 100vh;
   padding-left: 24px;
-  transition: 300ms;
+  transition: 250ms;
 
   animation-name: slide;
-  animation-duration: 600ms;
+  animation-duration: 500ms;
 }
 
 .menu-active ul li {
@@ -23,7 +23,7 @@
   font-size: 1.25rem;
 
   animation-name: slide;
-  animation-duration: 600ms;
+  animation-duration: 500ms;
 }
 
 .hamburger {
@@ -31,7 +31,7 @@
   z-index: 10;
 
   animation-name: slide;
-  animation-duration: 600ms;
+  animation-duration: 500ms;
 }
 
 @keyframes slide {
