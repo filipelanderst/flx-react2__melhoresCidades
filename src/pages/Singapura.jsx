@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Singapura() {
   return (
-    <div className='pt-12'>
+    <div className='pt-8'>
       <div className='mx-auto max-w-6xl'>
         {' '}
         <Link to='/singapura'>
