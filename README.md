@@ -50,8 +50,11 @@ __Link da página:__ [https://flx-react2-melhores-cidades.vercel.app/](https://f
     </div>
 
 ## Captura de Tela (Desktop)
-![](https://raw.githubusercontent.com/flx-lander7/flx-react2__melhoresCidades/main/screenshot-melhoresCidades(Desktop).png)
 
+![Cptura de Tela](https://raw.githubusercontent.com/flx-lander7/flx-react2__melhoresCidades/main/Screenshot-melhoresCidades(Desktop).png)
+
+<br>
 
 ## Captura de Tela (Mobile)
-![Captura de tela](https://raw.githubusercontent.com/flx-lander7/flx-react2__melhoresCidades/main/screenshot-melhoresCidades(Mobile).png)
+
+![Captura de tela](https://raw.githubusercontent.com/flx-lander7/flx-react2__melhoresCidades/main/Screenshot-melhoresCidades(Mobile).png)
