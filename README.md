@@ -3,8 +3,8 @@
   <div>
     <img
       style="width: 300px"
-      src="https://raw.githubusercontent.com/flx-lander7/codeLessons/main/Original.png?token=GHSAT0AAAAAAB4VY3OJSPNEOOS2OSQX3PNIY6OPVKA"
-      alt="verificado"
+      src="https://raw.githubusercontent.com/flx-lander7/codeLessons/main/Original.png?token=GHSAT0AAAAAAB4VY3OJMDSQFJIIINTR2RY6Y6OQENA"
+      alt="tutorial"
     />
   </div>
   
