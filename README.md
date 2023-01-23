@@ -2,13 +2,13 @@
 
   <div>
     <img
-      style="width: 30px"
-      src="https://cdn-icons-png.flaticon.com/512/7481/7481506.png"
+      style="width: 300px"
+      src="https://raw.githubusercontent.com/flx-lander7/codeLessons/main/Original.png?token=GHSAT0AAAAAAB4VY3OJSPNEOOS2OSQX3PNIY6OPVKA"
       alt="verificado"
     />
   </div>
   
-  **Projeto original**
+
     
 Projeto inspirado na série **Melhores Cidades** do site [**World Best Cities**](https://www.worldsbestcities.com/rankings/worlds-best-cities/).
 
