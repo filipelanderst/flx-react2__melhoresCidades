@@ -2,13 +2,13 @@
 
   <div>
     <img
-      style="width: 30px"
-      src="https://cdn-icons-png.flaticon.com/512/7481/7481506.png"
-      alt="verificado"
+      style="width: 300px"
+      src="https://raw.githubusercontent.com/flx-lander7/resources/main/Original.png?token=GHSAT0AAAAAAB4VY3OJ4L4TUR7E7K7BU7NKY6OQWPQ"
+      alt="tutorial"
     />
   </div>
   
-  **Projeto original**
+
     
 Projeto inspirado na série **Melhores Cidades** do site [**World Best Cities**](https://www.worldsbestcities.com/rankings/worlds-best-cities/).
 
@@ -50,8 +50,9 @@ __Link da página:__ [https://flx-react2-melhores-cidades.vercel.app/](https://f
     </div>
 
 ## Captura de Tela (Desktop)
-![](https://raw.githubusercontent.com/flx-lander7/flx-react2__melhoresCidades/main/screenshot-melhoresCidades(Desktop).png)
+<img style="width: 120vh" src="https://raw.githubusercontent.com/flx-lander7/flx-react2__melhoresCidades/main/Screenshot-melhoresCidades(Desktop).png"/>
 
+<br>
 
 ## Captura de Tela (Mobile)
-![Captura de tela](https://raw.githubusercontent.com/flx-lander7/flx-react2__melhoresCidades/main/screenshot-melhoresCidades(Mobile).png)
+<img style="width: 30vh" src="https://raw.githubusercontent.com/flx-lander7/flx-react2__melhoresCidades/main/Screenshot-melhoresCidades(Mobile).png"/>
